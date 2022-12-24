@@ -1,0 +1,98 @@
+body {
+    background: #687066;
+}
+
+#menu {
+    height: 100px;
+    position: relative;
+    margin-top: 5px;
+}
+
+#menu-text {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+
+#menu-buttons {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu-buttons input {
+    height: 30px;
+}
+
+#product-list {
+    position: relative;
+    min-height: 780px;
+    margin-top: 5px;
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+}
+
+.product-sub-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.active-page {
+    display: flex;
+}
+
+.product-space {
+    position: relative;
+    height: 250px;
+}
+
+.product-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    aspect-ratio: 1/1;
+    background: #a6bb9c;
+}
+
+.product-div input {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.product-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    aspect-ratio: 1/1;
+    text-align: center;
+}
+
+#list-control {
+    position: absolute;
+    z-index: 11;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lc-control {
+    height: 30px;
+    aspect-ratio: 1/1;
+    font-weight: 600;
+    font-size: 15px;
+}
